@@ -20,7 +20,7 @@ public class Login extends DriverFactory {
 	@When("Click login")
 	public void click_login() {
 	  driver.findElement(By.id("Login")).click();
-		   System.out.println("Homepage is verified);
+		   System.out.println("Homepage is verified");
 	}
 	@Then("Homepage is verified")
 	public void homepage_is_verified() {
