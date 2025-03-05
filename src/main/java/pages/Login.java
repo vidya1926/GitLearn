@@ -24,6 +24,7 @@ public class Login extends DriverFactory {
 	@Then("Homepage is verified")
 	public void homepage_is_verified() {
 	   System.out.println("Homepage is verified: " + driver.getTitle());
+	   System.out.println("Vidya");
 	}
 
 
